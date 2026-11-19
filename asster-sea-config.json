@@ -1,0 +1,5 @@
+{
+  "main": "build/encrypt-cli.cjs",
+  "output": "build/encrypt-cli.blob",
+  "disableExperimentalSEAWarning": true
+}
