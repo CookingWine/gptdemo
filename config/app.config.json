@@ -1,0 +1,12 @@
+{
+  "allowModelSwitch": false,
+  "ui": {
+    "showSidebarStatus": false,
+    "showChatModel": false,
+    "showTopBarStatus": false,
+    "showSettingsNavHint": false,
+    "showRuntimeDetails": false,
+    "showLocalData": false,
+    "showAboutDetails": false
+  }
+}
