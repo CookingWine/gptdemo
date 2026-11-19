@@ -1,0 +1,15 @@
+node_modules/
+dist/
+release/
+out/
+*.log
+.DS_Store
+.vite/
+.env
+.env.local
+.playwright-cli/
+.codebuddy/
+build/cache/
+build/encrypt-cli.cjs
+build/encrypt-cli.blob
+build/sea-config.json

@@ -1,0 +1,27 @@
+appId: com.democlient.app
+productName: Demo Client
+copyright: Copyright © 2026 Demo Client
+directories:
+  output: release
+files:
+  - dist/**/*
+  - electron/**/*
+  - shared/**/*
+  - package.json
+  - '!node_modules/**/*'
+asar: true
+extraResources:
+  - from: config
+    to: config
+mac:
+  category: public.app-category.developer-tools
+  target:
+    - dmg
+  artifactName: ${productName}-${version}.${ext}
+win:
+  target:
+    - nsis
+linux:
+  target:
+    - AppImage
+  category: Development
